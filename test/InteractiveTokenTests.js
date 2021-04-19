@@ -5,8 +5,8 @@ const Contribution = artifacts.require("Contribution");
 var accounts;
 
 // initialize 'startTime' and 'endTime' variables matching those used in the '1_deploy_contracts.js' file
-let startTime = 1618792930;
-let endTime = startTime + 5*3600;
+let startTime = 1618792930; // 4/18/2021 - 5:42:10 pm PST
+let endTime = startTime + 48*3600; //endTime is set to be 48 hours from starttime
 // 'INITIAL_SUPPLY' to match the 'IDT' token initial supply
 let INITIAL_SUPPLY = 1000000
 
