@@ -3,7 +3,7 @@ const Contribution = artifacts.require("Contribution");
 
 // Assign the startTime and endTime  in seconds from epoch to initialize the 'InteractiveToken' contract
 let startTime = 1618792930;
-let endTime = startTime + 5*60*60;
+let endTime = startTime + 48*60*60; //endTime is 48 hours from startTime. Update as needed.
 
 // deploy 'InteractiveToken' and 'Contribution' contracts. 
 // to deploy 'Contribution' contract provide the address of the 'InteractiveToken' contract
